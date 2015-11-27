@@ -8,7 +8,6 @@ module.exports = function (context) {
 		settings = require("./lib/settings")(fs, path),
 		platforms = {};
 
-	platforms.android = require("./lib/android")(fs, path, req('elementtree'), req('cordova-lib/src/cordova/util'), req('cordova-lib').configparser);
 	platforms.ios = require("./lib/ios")(Q, fs, path, req('plist'), req('xcode'));
 
 	return settings.get()

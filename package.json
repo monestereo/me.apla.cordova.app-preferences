@@ -5,7 +5,6 @@
   "cordova": {
     "id": "cordova-plugin-app-preferences",
     "platforms": [
-      "android",
       "ios",
       "osx",
       "wp7",
@@ -33,7 +32,6 @@
     "preferences",
     "settings",
     "ecosystem:cordova",
-    "cordova-android",
     "cordova-ios",
     "cordova-osx",
     "cordova-wp7",
